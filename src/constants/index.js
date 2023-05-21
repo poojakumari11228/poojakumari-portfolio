@@ -24,6 +24,7 @@ import {
   mssql,
   postgresql,
   muet,
+  miu,
 } from '../assets';
 
 export const navLinks = [
@@ -299,7 +300,7 @@ const education = [
   },  {
     title: 'Bachelors Of Software Engineer',
     institute: 'Mehran University of Engineering & Technology - Jamshoro, Pakistan',
-    icon: muet,
+    icon: miu,
     date: 'Nov 2016 - Jan 2021',
     grade: 'CGPA: 3.98'
   },

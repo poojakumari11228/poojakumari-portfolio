@@ -6,7 +6,9 @@ import {
   Hero,
   Navbar,
   Tech,
-  Projects, Education,
+  Projects,
+  Education,
+  Footer
 } from './components';
 
 const App = () => {
@@ -46,6 +48,7 @@ const App = () => {
           <Contact />
         </div>
       </div>
+      <Footer />
     </BrowserRouter>
   );
 };

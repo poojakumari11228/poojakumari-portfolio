@@ -7,7 +7,6 @@ import {
   html,
   css,
   reactjs,
-  git,
   docker,
   java,
   komikult,
@@ -294,13 +293,13 @@ const education = [
   {
     title: 'Masters of Science in Computer Science',
     institute: 'Maharishi International University – Iowa, USA',
-    icon: muet,
+    icon: miu,
     date: 'Nov 2022 - Present (Via Distance Education)',
     grade: 'CGPA: 3.93'
   },  {
     title: 'Bachelors Of Software Engineer',
     institute: 'Mehran University of Engineering & Technology - Jamshoro, Pakistan',
-    icon: miu,
+    icon: muet,
     date: 'Nov 2016 - Jan 2021',
     grade: 'CGPA: 3.98'
   },

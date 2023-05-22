@@ -7,5 +7,6 @@ import Experience from './Experience';
 import Projects from './Projects';
 import Contact from './Contact';
 import Education from './Education';
+import Footer from './Footer'
 
-export { Hero, Navbar, About, Tech, Experience, Projects, Contact, BallCanvas, Education };
+export { Hero, Navbar, About, Tech, Experience, Projects, Contact, BallCanvas, Education, Footer };

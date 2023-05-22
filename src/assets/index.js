@@ -14,7 +14,6 @@ import backend from './icons/backend.png';
 import db from './icons/db.png';
 import frontend from './icons/frontend.png';
 import prototyping from './icons/prototyping.png';
-import github from './icons/github.png';
 import close from './icons/close.png';
 import download from './icons/download.png';
 import downloadHover from './icons/downloadHover.png';
@@ -59,6 +58,10 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+
+import github from './socialmedia/github.png';
+import linkedin from './socialmedia/linkedin.png';
+import twitter from './socialmedia/twitter.png';
 
 export {
   bwmap,
@@ -116,5 +119,6 @@ export {
   java,
   muet,
   miu,
-
+  twitter,
+  linkedin,
 };

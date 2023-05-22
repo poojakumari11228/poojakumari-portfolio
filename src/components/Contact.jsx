@@ -4,36 +4,33 @@ import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 import { send, sendHover } from '../assets';
+import axios from "axios";
+import PopupAlert from "./PopupAlert.jsx";
 
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
     name: '',
     email: '',
-    pNumber : '',
+    pNumber: '',
     title: '',
     message: '',
   });
   const [loading, setLoading] = useState(false);
   const [phoneNumberError, setPhoneNumberError] = useState(false);
+  const [showThankYou, setShowThankYou] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
-    // if (name === 'pNumber') {
-    //   validatePhoneNumber(value);
-    // }
   };
 
   const validatePhoneNumber = () => {
     const phoneNumberPattern = /^\d{10,}$/;
 
-    console.error(form.pNumber);
     if (form.pNumber && !form.pNumber.match(phoneNumberPattern)) {
-      console.log('Error');
       setPhoneNumberError(true);
     } else {
-      console.log('No Error');
       setPhoneNumberError(false);
     }
   };
@@ -48,39 +45,12 @@ const Contact = () => {
       return;
     }
 
-    try {
-      const response = await sendEmail();
-      if (response.ok) {
-        alert('Thank you. I will get back to you as soon as possible.');
-        setForm({
-          name: '',
-          email: '',
-          title: '',
-          pNumber: '',
-          message: '',
-        });
-      } else {
-        throw new Error('Failed to send email');
-      }
-    }
-    catch (error) {
-      console.error('Error sending email:', error);
-      setForm({
-        name: '',
-        email: '',
-        pNumber: '',
-        title: '',
-        message: '',
-      });
-      console.error(error);
-    //  alert('Failed to send email');
-    }
+    await sendEmail();
     setLoading(false);
   };
 
   const sendEmail = async () => {
     const url = 'https://hhhjsm3g2j.execute-api.us-east-1.amazonaws.com/v1';
-
     const requestBody = {
       subject: form.title,
       message: form.message,
@@ -89,11 +59,30 @@ const Contact = () => {
       phone: form.pNumber
     };
 
-    return fetch(url, {
-      method: 'POST',
-      body: JSON.stringify(requestBody),
+    axios.post(url, JSON.stringify(requestBody))
+        .then(response => {
+          if (response.status === 200) {
+            emptyForm();
+            setShowThankYou(true);
+          } else {
+            throw new Error('Failed to send email');
+          }
+        })
+        .catch(error => {
+          console.log(error);
+        });
+  };
+
+  const emptyForm = () => {
+    setForm({
+      name: '',
+      email: '',
+      title: '',
+      pNumber: '',
+      message: '',
     });
   };
+
 
   return (
       <div className="-mt-[8rem] xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
@@ -207,6 +196,14 @@ const Contact = () => {
               />
             </button>
           </form>
+          {showThankYou && (
+              <PopupAlert
+                  isOpen={showThankYou}
+                  title="Success"
+                  message="Thank you. I will get back to you as soon as possible."
+                  onClose={() => setShowThankYou(false)}
+              />
+          )}
         </motion.div>
       </div>
   );

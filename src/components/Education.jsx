@@ -21,7 +21,7 @@ const EducationCard = ({
                      left: 0,
                      color: 'black',
                      backgroundColor: 'rgba(255, 255, 255, 0.8)',
-                     padding: '10px',
+                     padding: '15px',
                      display: 'flex',
                      flexDirection: 'column',
                      justifyContent: 'center',
@@ -62,7 +62,7 @@ const Education = () => {
                 whileInView="show"
                 viewport={{once: false, amount: 0.25}}
                 className={`${styles.innerWidth} mx-auto flex flex-col`}>
-                <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+                <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-20">
                     {education.map((edu, index) => (<EducationCard
                             key={edu.id}
                             index={index}

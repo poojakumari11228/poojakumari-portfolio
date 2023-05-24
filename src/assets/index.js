@@ -46,6 +46,10 @@ import kafka from './tech/kafka.png'
 import bootstrap from './tech/bootstrap.png'
 import java from './tech/java.png'
 import mssql from './tech/mssql.png'
+import awsAmplify from './tech/awsamplify.png'
+import blockchain from './tech/blockchain.jpg'
+import javaInterface from './tech/javainterfaces.jpg'
+import api from './tech/api.jpg'
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -58,6 +62,9 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+import voblock from './projects/voblock.png';
+import propertApp from './projects/propertyapp.png';
+import alzApp from './projects/alzApp.jpg'
 
 import github from './socialmedia/github.png';
 import linkedin from './socialmedia/linkedin.png';
@@ -121,4 +128,11 @@ export {
   miu,
   twitter,
   linkedin,
+  awsAmplify,
+  blockchain,
+  javaInterface,
+  api,
+  propertApp,
+  voblock,
+  alzApp,
 };

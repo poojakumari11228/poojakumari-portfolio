@@ -10,6 +10,7 @@ import {
   Education,
   Footer
 } from './components';
+import Blogs from "./components/Blogs.jsx";
 
 const App = () => {
   return (
@@ -43,8 +44,11 @@ const App = () => {
         <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10">
           <Education />
         </div>
+        <div className="bg-about bg-cover bg-center bg-no-repeat">
+          <Blogs />
+        </div>
 
-        <div className="relative z-0">
+        <div className="relative z-0 bg-center bg-no-repeat">
           <Contact />
         </div>
       </div>

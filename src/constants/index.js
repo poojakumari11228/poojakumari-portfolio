@@ -24,6 +24,13 @@ import {
   postgresql,
   muet,
   miu,
+  blockchain,
+  awsAmplify,
+  api,
+  javaInterface,
+  propertApp,
+  voblock,
+  alzApp
 } from '../assets';
 
 export const navLinks = [
@@ -46,6 +53,10 @@ export const navLinks = [
   {
     id: 'education',
     title: 'Education',
+  },
+  {
+    id: 'blogs',
+    title: 'Publications',
   },
   {
     id: 'contact',
@@ -305,4 +316,45 @@ const education = [
   },
 ]
 
-export { services, technologies, experiences, projects, education };
+const blog = [
+  {
+    title: 'Unleashing the Potential of Amplify Studio',
+    icon: awsAmplify,
+    url: 'https://medium.com/@poojakumari11228/unleashing-the-potential-of-amplify-studio-building-full-stack-app-on-aws-ea3048f52bfc'
+  },
+  {
+    title: 'Blockchain Fundamentals-The Easy Way',
+    icon: blockchain,
+    url: 'https://medium.com/@poojakumari11228/blockchain-fundamentals-the-easy-way-39259c1d06b6'
+  },
+  {
+    title: 'Evolving API Problem',
+    icon: api,
+    url: 'https://medium.com/@poojakumari11228/evolving-api-problem-java-ea221847870a'
+  },
+  {
+    title: 'Deep Dive into Java Interfaces',
+    icon: javaInterface,
+    url: 'https://medium.com/@poojakumari11228/evolving-api-problem-part2-a612488bb1d9'
+  },
+];
+
+const publications = [
+  {
+    title: 'Conventional VS Blockchain Based E-Vote System" (APIC-IST 2020)',
+    icon: voblock,
+    url: 'https://www.researchgate.net/publication/343017419_Conventional_VS_Blockchain-Based_E-Vote_System'
+  },
+  {
+    title: 'Artificial Intelligence Based Memory Stash Alzheimer\'s Aid (ICISCT 2020)',
+    icon: alzApp,
+    url: 'https://ieeexplore.ieee.org/document/9080030'
+  },
+  {
+    title: 'Allrounder Property Management System (INCCST 2019)',
+    icon: propertApp,
+    url: 'https://drive.google.com/file/d/1fdtHHOdgSkzxryv9PaPoreFjSn8VdwAO/view'
+  }
+];
+
+export { services, technologies, experiences, projects, education, blog, publications };

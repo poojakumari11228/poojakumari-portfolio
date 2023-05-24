@@ -85,7 +85,7 @@ const Contact = () => {
 
 
   return (
-      <div className="-mt-[8rem] xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
+      <div className="-mt-[2rem] xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
         <motion.div
             variants={slideIn('left', 'tween', 0.2, 1)}
             className="flex-[0.75] bg-jet p-8 rounded-2xl"
@@ -199,7 +199,7 @@ const Contact = () => {
           {showThankYou && (
               <PopupAlert
                   isOpen={showThankYou}
-                  title="Success"
+                  title="Hi,"
                   message="Thank you. I will get back to you as soon as possible."
                   onClose={() => setShowThankYou(false)}
               />

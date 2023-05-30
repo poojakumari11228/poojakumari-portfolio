@@ -30,7 +30,8 @@ import {
   javaInterface,
   propertApp,
   voblock,
-  alzApp
+  alzApp, linkedin, github,
+    researchgate, medium
 } from '../assets';
 
 export const navLinks = [
@@ -66,20 +67,24 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Backend Development',
-    icon: backend,
+    title: 'LintedIn',
+    url: 'https://www.linkedin.com/in/poojakumari48/',
+    icon: linkedin,
   },
   {
-    title: 'Database Design',
-    icon: db,
+    title: 'GitHub',
+    url: 'https://github.com/poojakumari11228',
+    icon: github,
   },
   {
-    title: 'Frontend',
-    icon: frontend,
+    title: 'Medium',
+    url: 'https://medium.com/@poojakumari11228',
+    icon: medium,
   },
   {
-    title: 'SDLC',
-    icon: prototyping,
+    title: 'ResearchGate',
+    url: 'https://www.researchgate.net/profile/Pooja-Kumari-20?ev=hdr_xprf',
+    icon: researchgate,
   },
 ];
 
@@ -150,37 +155,37 @@ const technologies = [
 const experiences = [
   {
     title: 'Software Engineer',
-    company_name: 'Paysys Labs (Fintech)',
+    company_name: 'Paysys Labs (Fintech), Karachi Pakistan',
     icon: java,
-    iconBg: '#333333',
+    iconBg: '#d7d1d1',
     date: 'Feb 2022 - Nov 2022',
   },
   {
     title: 'Associate Software Engineer',
-    company_name: 'Paysys Labs (Fintech)',
+    company_name: 'Paysys Labs (Fintech), Karachi Pakistan',
     icon: java,
-    iconBg: '#333333',
+    iconBg: '#d7d1d1',
     date: 'Feb 2021 - Jan 2022',
   },
   {
     title: 'Oracle APEX Trainee',
-    company_name: 'OCLITS',
+    company_name: 'OCLITS, Karachi Pakistan',
     icon: oracle,
-    iconBg: '#333333',
+    iconBg: '#d7d1d1',
     date: 'Jun 2020 - Aug 2020',
   },
   {
     title: 'Java Developer Intern',
-    company_name: 'Gexton',
+    company_name: 'Gexton, Hyderabad Pakistan',
     icon: java,
-    iconBg: '#333333',
+    iconBg: '#d7d1d1',
     date: 'May 2018 - July 2018',
   },
   {
     title: 'React Native Intern',
-    company_name: 'CIC HUB',
+    company_name: 'CIC HUB, Hyderabad Pakistan',
     icon: reactjs,
-    iconBg: '#333333',
+    iconBg: '#d7d1d1',
     date: 'May 2018 - July 2018',
   },
 ];

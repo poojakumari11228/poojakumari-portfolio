@@ -8,7 +8,7 @@ const BlogCard = ({index, title, icon, url}) => {
     return (
         <motion.div
             variants={fadeIn('right', 'spring', 0.5 * index, 0.75)}
-            className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card">
+            className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card " >
             <div
                 options={{
                     max: 45,

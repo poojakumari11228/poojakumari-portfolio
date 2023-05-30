@@ -8,9 +8,9 @@ import {
   Tech,
   Projects,
   Education,
-  Footer
+  Footer,
+  Blogs
 } from './components';
-import Blogs from "./components/Blogs.jsx";
 
 const App = () => {
   return (
@@ -41,9 +41,9 @@ const App = () => {
           </div>
         </div>
 
-        <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10">
+        {/*<div className="bg-tech bg-cover bg-center bg-no-repeat pb-10">*/}
           <Education />
-        </div>
+        {/*</div>*/}
         <div className="bg-about bg-cover bg-center bg-no-repeat">
           <Blogs />
         </div>
@@ -51,8 +51,13 @@ const App = () => {
         <div className="relative z-0 bg-center bg-no-repeat">
           <Contact />
         </div>
+
+        <div className='bg-footer'>
+          <Footer />
+        </div>
+
       </div>
-      <Footer />
+
     </BrowserRouter>
   );
 };

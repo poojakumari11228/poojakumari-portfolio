@@ -39,17 +39,17 @@ const Hero = () => {
               <span
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
-                font-extrabold uppercase">
+                font-poppins uppercase">
                 Pooja Kumari
               </span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
+            <p className={`${styles.heroSubText} mt-2 text-eerieBlack font-poppins `}>
               Software Engineer <br className="sm:block hidden" />
               {/*<img src={java} alt='Java' className="w-10 h-10 rounded-[24px]"/>*/}
             </p>
           </div>
           <div
-            className="w-screen flex flex-col items-start 
+            className="w-screen flex flex-col items-start
             justify-center sm:-ml-[3rem] xxs:mt-4"></div>
 
           <div></div>

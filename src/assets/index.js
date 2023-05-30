@@ -69,6 +69,9 @@ import alzApp from './projects/alzApp.jpg'
 import github from './socialmedia/github.png';
 import linkedin from './socialmedia/linkedin.png';
 import twitter from './socialmedia/twitter.png';
+import researchgate from './socialmedia/researchgate.png';
+import medium from './socialmedia/medium.png'
+import mail from './socialmedia/mail.png'
 
 export {
   bwmap,
@@ -135,4 +138,7 @@ export {
   propertApp,
   voblock,
   alzApp,
+  researchgate,
+  medium,
+  mail,
 };

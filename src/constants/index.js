@@ -91,14 +91,14 @@ const services = [
 const technologies = [
   {
     name: 'SpringBoot',
-    icon: javascript,
+    icon: springboot,
   },
   {
     name: 'React JS',
-    icon: javascript,
+    icon: reactjs,
   },  {
     name: 'Apache Kafka',
-    icon: javascript,
+    icon: kafka,
   },  {
     name: 'Docker',
     icon: docker,

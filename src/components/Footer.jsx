@@ -37,6 +37,7 @@ const Footer = () => {
       </div>
       <div className="copywrite-section">
         <p>© 2023. By Pooja Kumari.</p>
+          <a href="https://reactjsexample.com/a-personal-style-portfolio-template-built-using-react-js-and-three-js/"><label>Click For Template</label></a>
       </div>
     </div>
   )

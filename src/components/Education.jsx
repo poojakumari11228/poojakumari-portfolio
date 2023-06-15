@@ -12,8 +12,7 @@ const EducationCard = ({
             className={`relative ${'lg:flex-[0.5] flex-[2]'} flex items-center justify-center min-w-[170px]
       h-[420px] cursor-pointer card-shadow`}>
             <div id={id}
-                className="absolute top-0 left-0 z-10 bg-jetLight
-      h-full w-full opacity-[0.5] rounded-[24px]"></div>
+                className="absolute top-0 left-0 z-10 h-full w-full opacity-[0.5] rounded-[24px]"></div>
             <div className="rounded-[24px]"
                  style={{
                      position: 'absolute',
@@ -62,7 +61,7 @@ const Education = () => {
                 whileInView="show"
                 viewport={{once: false, amount: 0.25}}
                 className={`${styles.innerWidth} mx-auto flex flex-col`}>
-                <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-20">
+                <div className="mt-[10%] flex lg:flex-row flex-col min-h-[70vh] gap-20">
                     {education.map((edu, index) => (<EducationCard
                             key={edu.id}
                             index={index}

@@ -35,7 +35,7 @@ const ServiceCard = ({index, title, icon, url}) => {
 
 const About = () => {
     return (
-        <div className="-mt-[6rem]">
+        <div className="-mt-[2rem]">
             <motion.div variants={textVariant()}>
                 <p className={styles.sectionSubText}>Introduction</p>
                 <h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -44,7 +44,7 @@ const About = () => {
             <motion.p
                 variants={fadeIn('', '', 0.1, 1)}
                 className="mt-2 text-taupe text-[18px] max-w-3xl leading-[30px]">
-                Skilled software engineer with 2 years of experience in the design, development, analysis,
+                Skilled software engineer with 2+ years of experience in the design, development, analysis,
                 testing, coding, maintenance, and improvement of many different software applications in collaboration
                 with teams, managers, clients, and vendors. History of delivering excellent, clean code for functional,
                 efficient solutions in a high-performance, secure environment using Java, React, MS SQL, AWS, Oracle,

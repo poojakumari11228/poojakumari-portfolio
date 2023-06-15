@@ -89,6 +89,27 @@ const services = [
 ];
 
 const technologies = [
+
+  {
+    name: 'Java',
+    icon: java,
+  },
+  {
+    name: 'MS SQL',
+    icon: mssql,
+  },
+  {
+    name: 'Oracle SQL & APEX',
+    icon: oracle,
+  },
+  {
+    name: 'MySQL',
+    icon: mysql,
+  },
+  {
+    name: 'Postgre SQL',
+    icon: postgresql,
+  },
   {
     name: 'SpringBoot',
     icon: springboot,
@@ -96,7 +117,8 @@ const technologies = [
   {
     name: 'React JS',
     icon: reactjs,
-  },  {
+  },
+  {
     name: 'Apache Kafka',
     icon: kafka,
   },  {
@@ -124,27 +146,7 @@ const technologies = [
     icon: bootstrap,
   },
 
-  {
-    name: 'Java',
-    icon: java,
-  },
 
-  {
-    name: 'MS SQL',
-    icon: mssql,
-  },
-  {
-    name: 'Oracle SQL & APEX',
-    icon: oracle,
-  },
-  {
-    name: 'MySQL',
-    icon: mysql,
-  },
-  {
-    name: 'Postgre SQL',
-    icon: postgresql,
-  },
   // {
   //   name: 'Git',
   //   icon: git,
@@ -158,7 +160,7 @@ const experiences = [
     company_name: 'Paysys Labs (Fintech), Karachi Pakistan',
     icon: java,
     iconBg: '#d7d1d1',
-    date: 'Feb 2022 - Nov 2022',
+    date: 'Feb 2022 - Oct 2022',
   },
   {
     title: 'Associate Software Engineer',
@@ -310,7 +312,7 @@ const education = [
     title: 'Masters of Science in Computer Science',
     institute: 'Maharishi International University – Iowa, USA',
     icon: miu,
-    date: 'Nov 2022 - Present (Via Distance Education)',
+    date: 'Nov 2022 - In Progress (Via Distance Education)',
     grade: 'CGPA: 3.93'
   },  {
     title: 'Bachelors Of Software Engineer',

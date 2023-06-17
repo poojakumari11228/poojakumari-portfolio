@@ -24,32 +24,30 @@ import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
 
-import css from './tech/css.png';
-import docker from './tech/docker.png';
-import figma from './tech/figma.png';
-import git from './tech/git.png';
-import html from './tech/html.png';
-import javascript from './tech/javascript.png';
-import nodejs from './tech/nodejs.png';
-import reactjs from './tech/reactjs.png';
-import redux from './tech/redux.png';
-import tailwind from './tech/tailwind.png';
-import typescript from './tech/typescript.png';
-import graphql from './tech/graphql.png';
-import postgresql from './tech/postgresql.png';
-import rubyrails from './tech/rubyrails.png';
-import springboot from './tech/springboot.png'
-import aws from './tech/aws.png'
-import oracle from './tech/oracle.png'
-import mysql from './tech/mysql.png'
-import kafka from './tech/kafka.png'
-import bootstrap from './tech/bootstrap.png'
-import java from './tech/java.png'
-import mssql from './tech/mssql.png'
-import awsAmplify from './tech/awsamplify.png'
-import blockchain from './tech/blockchain.jpg'
-import javaInterface from './tech/javainterfaces.jpg'
-import api from './tech/api.jpg'
+import css from './tech/css.webp';
+import docker from './tech/docker.webp';
+import figma from './tech/figma.webp';
+import git from './tech/git.webp';
+import html from './tech/html.webp';
+import javascript from './tech/javascript.webp';
+import nodejs from './tech/nodejs.webp';
+import reactjs from './tech/reactjs.webp';
+import redux from './tech/redux.webp';
+import graphql from './tech/graphql.webp';
+import postgresql from './tech/postgresql.webp';
+import rubyrails from './tech/rubyrails.webp';
+import springboot from './tech/springboot.webp'
+import aws from './tech/aws.webp'
+import oracle from './tech/oracle.webp'
+import mysql from './tech/mysql.webp'
+import kafka from './tech/kafka.webp'
+import bootstrap from './tech/bootstrap.webp'
+import java from './tech/java.webp'
+import mssql from './tech/mssql.webp'
+import awsAmplify from './tech/awsamplify.webp'
+import blockchain from './tech/blockchain.webp'
+import javaInterface from './tech/javainterfaces.webp'
+import api from './tech/api.webp'
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -107,8 +105,6 @@ export {
   rubyrails,
   reactjs,
   redux,
-  tailwind,
-  typescript,
   komikult,
   leaderboard,
   math,

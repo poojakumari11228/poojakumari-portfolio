@@ -1,8 +1,4 @@
 import {
-  frontend,
-  backend,
-  db,
-  prototyping,
   javascript,
   html,
   css,
@@ -174,7 +170,7 @@ const experiences = [
     company_name: 'OCLITS, Karachi Pakistan',
     icon: oracle,
     iconBg: '#d7d1d1',
-    date: 'Jun 2020 - Aug 2020',
+    date: 'May 2020 - Aug 2020',
   },
   {
     title: 'Java Developer Intern',

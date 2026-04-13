@@ -44,8 +44,8 @@ const About = () => {
             <motion.p
                 variants={fadeIn('', '', 0.1, 1)}
                 className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-                I am an **Enterprise Software Engineer** specializing in **Payment Systems & Cloud-Native Architecture**. 
-                I build resilient, high-concurrency applications that power the modern economy. With **4+ years** of experience in the Fintech space, I bridge the gap between complex business logic and robust 
+                I am an <b>Enterprise Software Engineer</b> specializing in <b>Payment Systems & Cloud-Native Architecture</b>. 
+                I build resilient, high-concurrency applications that power the modern economy. With <b>4+ years</b> of experience in the <b>Fintech</b> space, I bridge the gap between complex business logic and robust 
                 Cloud Infrastructure with a relentless focus on clean architecture and security.
             </motion.p>
 

@@ -43,13 +43,23 @@ const About = () => {
 
             <motion.p
                 variants={fadeIn('', '', 0.1, 1)}
-                className="mt-2 text-taupe text-[18px] max-w-3xl leading-[30px]">
-                Skilled software engineer with 2+ years of experience in the design, development, analysis,
-                testing, coding, maintenance, and improvement of many different software applications in collaboration
-                with teams, managers, clients, and vendors. History of delivering excellent, clean code for functional,
-                efficient solutions in a high-performance, secure environment using Java, React, MS SQL, AWS, Oracle,
-                and Git, as well as modern design patterns and SDLC methodologies.
+                className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+                I am an **Enterprise Software Engineer** specializing in **Payment Systems & Cloud-Native Architecture**. 
+                I build resilient, high-concurrency applications that power the modern economy. With **4+ years** of experience in the Fintech space, I bridge the gap between complex business logic and robust 
+                Cloud Infrastructure with a relentless focus on clean architecture and security.
             </motion.p>
+
+            {/* Added a Core Stack highlight for immediate keyword impact */}
+            <motion.div 
+                variants={fadeIn('', '', 0.2, 1)}
+                className="mt-4 flex flex-wrap gap-2"
+            >
+                {['Java', 'Spring Boot', 'AWS', 'React', 'Angular', 'Microservices'].map((tech) => (
+                    <span key={tech} className="bg-jetLight py-1 px-3 rounded-md text-[14px] text-taupe border border-taupe/20">
+                        {tech}
+                    </span>
+                ))}
+            </motion.div>
 
             <div className="mt-20 flex flex-wrap gap-10">
                 {services.map((service, index) => (

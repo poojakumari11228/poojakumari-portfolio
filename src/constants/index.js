@@ -152,6 +152,13 @@ const technologies = [
 
 const experiences = [
   {
+    title: 'Software Engineer II',
+    company_name: 'Mastercard Technologies LLC, MO USA',
+    icon: java,
+    iconBg: '#d7d1d1',
+    date: 'Nov 2023 - Present',
+  },
+  {
     title: 'Software Engineer',
     company_name: 'Paysys Labs (Fintech), Karachi Pakistan',
     icon: java,

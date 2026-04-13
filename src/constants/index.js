@@ -63,7 +63,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'LintedIn',
+    title: 'LinkedIn',
     url: 'https://www.linkedin.com/in/poojakumari48/',
     icon: linkedin,
   },
@@ -103,7 +103,7 @@ const technologies = [
     icon: mysql,
   },
   {
-    name: 'Postgre SQL',
+    name: 'PostgreSQL',
     icon: postgresql,
   },
   {
@@ -315,7 +315,7 @@ const education = [
     title: 'Masters of Science in Computer Science',
     institute: 'Maharishi International University – Iowa, USA',
     icon: miu,
-    date: 'Nov 2022 - In Progress (Via Distance Education)',
+    date: 'Nov 2022 - June 2025',
     grade: 'CGPA: 3.93'
   },  {
     title: 'Bachelors Of Software Engineer',
